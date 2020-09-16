@@ -165,6 +165,10 @@ TARGET_BOOTANIMATION_SIZE := 1080p
 PRODUCT_PACKAGES += \
     android.hardware.broadcastradio@1.0-impl
 
+#Board Flags
+PRODUCT_BOARD_PLATFORM := sdm660
+PRODUCT_USES_QCOM_HARDWARE := true
+
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.4 \
